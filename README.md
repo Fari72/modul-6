@@ -191,7 +191,7 @@ codenya akan seperti dibawah ini;
 
 Selanjutnya kita akan memanggil dari url browser
 
-codenya pada **folder** `routes/web.php`
+codenya pada folder **routes** file `web.php`
 
 ```
 <?php
@@ -217,3 +217,19 @@ Route::get('/barang/store', [BarangController::class, 'store']);
 Route::get('/barang/update', [BarangController::class, 'update']);
 Route::get('/barang/delete', [BarangController::class, 'delete']);
 ```
+
+Hasil dari code tersebut ingin melihatnya di **browser/ chrome** dengan **url** `http://localhost/phpmyadmin/index.php`
+
+selanjutnya cari yang bernama kategori dan barang
+
+hasilnya akan terlihat seperti dibawah ini
+
+>![image](https://user-images.githubusercontent.com/109929687/183568880-343b2ef3-f416-4cb1-a6a7-080a2f45c8e6.png)
+
+gambar diatas dari yang bernama **barang**
+
+dan gambar dibawah ini yang bernama hasil dari **kategori** 
+
+>![image](https://user-images.githubusercontent.com/109929687/183569364-b8d98ef4-6f4b-4b7d-b702-89ff78230004.png)
+
+<!-- maaf karena ada beberapa yang tidak saya mengerti jadi saya tidak memberi penjelasan -->
